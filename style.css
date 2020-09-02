@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+/*       ------------------      Home     ------------------      */
+.home
+{
+    background-image: url(img/slider/slider.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 630px;
+    
+    overflow: auto;
+
+}
+.home .navbar
+{
+    position: fixed;
+    background-color:#333;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 333333;
+}
+.home .logo
+{
+    text-align: left;
+    font-size:28px ;
+    padding: 16px 45px;
+    float: left;
+
+
+}
+.home .logo a
+{
+    color: #ff305b;
+    text-decoration: none;
+}
+.home .bar
+{
+    padding: 20px 45px;
+    text-align: right;
+    font-size: 20px;
+}
+.home  .bar a
+{
+    padding: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+
+
+}
+.home .text h1
+{
+    color: #ff305b;
+    font-size: 70px;
+}
+.home .text 
+{
+    color: #fff;
+    margin-top: 230px;
+    font-size: 26px;
+    text-align: center ;
+
+}
+.bar a:hover
+{
+    color: #ff305b;
+    transition: 1.3s;
+
+}
+/*       ------------------      Section1     ------------------      */
+.section1
+{
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    padding: 50px;
+    position: relative;
+}
+.section1 .img1
+{
+    width: 50%;
+    float: left;
+    position: relative;
+    
+}
+.section1 .img1 .box1
+{
+    border: 8px solid #555555 ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}
+.img1 img 
+{
+    width: 100%;
+    
+}
+
+.section1 .text1
+{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 40px;
+    line-height: .65cm;
+}
+.text1 p
+{
+    padding: 25px 0;
+}
+.text1 ul
+{
+    padding: 25px 0;
+}
+.text1 li 
+{
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+}
+.text1 button
+{
+    background: #ff305b;
+    padding: 10px;
+    margin: 0 15px 0 0;
+    border-radius: 7px;
+    border: none;
+    
+}
+.text1 button:hover
+{
+    background: #ec2403;
+    transition: 1s;
+    
+}
+.text1 button a
+{
+    color: #fff;
+    text-decoration: none;
+
+}
+.text1 button i
+{
+    font-size: 20px;
+    padding: 5px;
+}
+.text1 hr
+{
+    border-top: 1px dashed
+}
+.text1 span
+{
+    font-weight: bold;
+} 
+.section1 .tras
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s , transform 1s;
+}
+.section1 .img1:hover .tras
+{
+    opacity: 1;
+
+}
+.section1 .tras a
+{
+    text-align: center;
+    text-decoration: none ;
+    color: #fff;
+    width: 100%;
+    padding: 5%;
+}
+.section1 .icon1
+{
+    text-align: center;
+    margin: 50% 0;
+}
+@media (min-width:10px) and (max-width:1070px)
+{
+    .section1
+    {
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .section1 .text1
+    {
+        width: 100%;
+        padding: 16px;
+    }
+    .text1 li 
+    {
+        width: 100%;
+    }
+    .section1 .img1
+    {
+        width: 100%;
+        
+    }
+    .text1 button
+    {
+        margin: 2px;
+    }
+    .section1 .img1 .box1
+    {
+        border: none;
+    }
+}
+/*       ------------------      Section2     ------------------      */
+.section2
+{
+    text-align: center;
+    
+    line-height: .7cm;
+    background-color: #f1f1f1;
+    padding: 70px 0 50px;
+    
+}
+
+.section2 h1
+{
+    padding: 0 0 25px;
+    font-size: 38px;
+}
+.section2 .cont2
+{
+    overflow: auto;
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+.section2 .text2
+{
+    width: 25%;
+    float: left;
+    margin: 20px 0 0px;
+}
+.section2 .text2 i
+{
+    color: red;
+    font-size: 30px;
+    padding: 50px 0 20px;
+}
+.section2 .text2 h3
+{
+    font-size: 20px;
+    padding: 15px 0;
+}
+.section2 .text2:hover
+{
+    background-color: #fff;
+    
+}
+.section2 .cont2 p
+{
+    padding: 0 10px 25px;
+
+}
+
+@media (min-width:10px) and (max-width:700px)
+{
+    .section2 .text2
+    {
+        width: 100%;
+    }
+}
+@media (min-width:701px) and (max-width:1070px)
+{
+    .section2 .text2
+    {
+        width: 50%;
+    }
+}
+/*       ------------------      hr     ------------------      */
+.dash1
+{
+    border-top: 1px solid #ff305b;
+    width: 80px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+.dash
+{
+    border-top: 1px solid #ff305b;
+    width: 160px;
+    margin: 3px auto;
+}
+/*       ------------------      Section3     ------------------      */
+.section3
+{
+    text-align: center;
+    line-height: .7cm;
+    padding: 70px 0 50px;
+}
+.section3 h1
+{
+    padding: 0 0 25px;
+    font-size: 38px;
+}
+.section3 .cont3
+{
+    overflow: auto;
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 25px 0 0;
+}
+.section3 .cont3 img
+{
+    width: 100%;
+}
+.section3 .cont3 .cone
+{
+    width: 33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.section3 a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+
+}
+.section3 .ancor
+{
+    padding: 18px;
+}
+@media (min-width:10px) and (max-width:700px)
+{
+    .section3 .cont3 .cone
+    {
+        width: 100%;
+    }
+}
+@media (min-width:701px) and (max-width:1070px)
+{
+    .section3 .cont3 .cone
+    {
+        width: 50%;
+    }
+}
+/*       ------------------      Section4     ------------------      */
+.section4
+{
+    text-align: center;
+    line-height: .8cm;
+    background-color: #f1f1f1;
+    padding: 70px 0 70px;
+    overflow: auto;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.section4 .text4
+{
+    width: 25%;
+    float: left;
+    padding: 20px 0;
+}
+.section4 i
+{
+    color: red;
+    font-size: 28px;
+}
+@media (min-width:10px) and (max-width:700px)
+{
+    .section4 .text4
+    {
+        width: 100%;
+    }
+}
+@media (min-width:701px) and (max-width:1070px)
+{
+    .section4 .text4
+    {
+        width: 50%;
+    }
+}
+/*       ------------------      Section5     ------------------      */
+.section5
+{
+    line-height: .7cm;
+    padding: 70px 0 50px;
+}
+.section5 h1
+{
+    text-align: center;
+    padding: 20px 0;
+}
+.section5 .cont5
+{
+    overflow: auto;
+    margin: 22px auto;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 25px 0 0;
+    background-color: #f1f1f1;
+}
+.section5 .img5 img
+{
+    border-radius: 50%;
+    width: 100%;
+    z-index: 111111;
+    position: relative;
+    top: -26px;
+}
+.section5 .text5
+{
+    width: 87%;
+    padding: 20px 0;
+}
+.section5 .img5
+{
+    width: 13%;
+    float: left;
+    padding: 20px;
+    position: relative;
+    
+}
+.section5 .text5 h3
+{
+    padding: 13px;
+}
+.redbar
+{
+    background-color: #ff305b;
+    height: 201px;
+    width: 80px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -17px;
+    top: -91px;
+    z-index: 1;
+}
+
+/*       ------------------      Section6     ------------------      */
+.section6
+{
+    line-height: .7cm;
+    padding: 70px 0 50px;
+    background-color: #f1f1f1;
+}
+.section6 h1
+{
+    text-align: center;
+    padding: 20px 0;
+}
+.section6 .cont6
+{
+    overflow: auto;
+    margin: auto;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 25px 0 0;
+}
+.section6 .cont6 .text6
+{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 7px;
+    
+    
+}
+.section6 .cont6 .text6 img
+{
+    width: 100%;
+}
+.section6 .cont6 .text6 .tcon
+{
+    background-color: #fff;
+    padding: 5px 5px 25px 5px;
+}
+.section6 .cont6 .text6 a
+{
+    text-decoration: none;
+}
+.section6 .cont6 .text6 a:hover
+{
+    color: red;
+}
+@media (min-width:10px) and (max-width:900px)
+{
+    .section6 .cont6 .text6
+    {
+        width: 100%;
+        
+    }
+}
+/*       ------------------      Section7     ------------------      */
+.section7
+{
+    line-height: .7cm;
+    padding: 70px 0 50px;
+    
+}
+.section7 h1
+{
+    padding: 20px 0;
+    text-align: center;
+}
+.section7 .cont7
+{
+    margin: auto;
+    width: 65%;
+    box-sizing: border-box;
+    padding: 25px 0 0;
+}
+.section7 .cont7 .text7
+{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+.section7 .cont7 input
+{
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.section7 .cont7 .sub7
+{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+.section7 button
+{
+    background: #ff305b;
+    padding: 15px;
+    margin: 10px 15px 0px 30px;
+    border-radius: 7px;
+    border: none;
+    color: #fff; 
+}
+@media (min-width:10px) and (max-width:900px)
+{
+    .section7 .cont7 .text7
+    {
+        width: 100%;
+        
+    }
+}
+/*       ------------------      footer     ------------------      */
+.footer
+{
+    line-height: .7cm;
+    padding: 70px 0 50px;
+    background-color: #333333;
+    text-align: center;   
+}
+.footer .icon7
+{
+    padding: 10px;
+}
+.footer a
+{
+    text-decoration: none;
+}
+.footer i
+{
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
